@@ -31,7 +31,7 @@ func (s Sphere) Volume() float64 {
 }
 
 func (s Sphere) SurfaceArea() float64 {
-    return 2 * math.Pi * math.Pow(s.radius, 2)
+    return 4 * math.Pi * math.Pow(s.radius, 2)
 }
 
 // YOUR CODE HERE: Define a Solid interface.
